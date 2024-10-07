@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de dicionario HTML</title>
+</head>
+<body>
+    <h1>Entendendo o HTML na prática <small>h1</small></h1>
+    <hr>
+
+    <h2>Índice</h2>
+    <p><strong>Este índice está usando um sistema de ancoragem <code>&lt;a&gt;</code> capaz de, ao clicar, enviar para a referência <code>href</code></strong></p>
+    <ul>
+        <li><a href="#tag-h">Tag H</a></li>
+        <li><a href="#tag-p">Tag P</a></li>
+        <li><a href="#tag-mark">Tag Mark</a></li>
+        <li><a href="#tag-small">Tag Small</a></li>
+        <li><a href="#tag-i">Tag I</a></li>
+        <li><a href="#tag-u">Tag U</a></li>
+        <li><a href="#tag-strong">Tag Strong</a></li>
+        <li><a href="#tag-listas">Tag's ol, ul e li</a></li>
+        <li><a href="#tag-a">Tag A</a></li>
+        <li><a href="#tag-hr">Tag hr</a></li>
+        <li><a href="#tag-sub-sup">Tag´s Sub e Sup</a></li>
+        <li><a href="#tag-blockquote">Tag Blockquote</a></li>
+        <li><a href="#tag-font">Tag Font</a></li>
+        <li><a href="#tag-del">Tag Del</a></li>
+        <li><a href="#tag-abbr">Tag Abbr</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="tag-h">Tag H - Títulos e Parágrafos</h2>
+    <p>Este tipo de tag (varia de <code>H1</code> até <code>H6</code>) é utilizada para realizar marcações de parágrafos como se fossem títulos de diferentes níveis de importância, onde <code>H1</code> é o mais importante e <code>H6</code> o menos importante.</p>
+
+    <h2 id="tag-p">Tag P - Corpo textual</h2>
+    <p>Uma tag <code>P</code> é usada para se inserir um corpo em um texto, como se fosse um <strong>parágrafo</strong> textual. Esse texto, por exemplo, é feito por uma tag <code>P</code>.</p>
+
+    <h2 id="tag-mark">Tag Mark - Marcação</h2>
+    <p>A tag <code>&lt;mark&gt;</code> é utilizada para destacar uma parte específica de um texto, fazendo com que ela se sobressaia como se estivesse <mark>marcada</mark> com um marcador de texto.</p>
+
+    <h2 id="tag-small">Tag Small - Texto Pequeno</h2>
+    <p>A tag <code>&lt;small&gt;</code> reduz o tamanho do texto, usada para exibir textos com menor relevância ou informações complementares.</p>
+    <p><small>Exemplo de texto em small.</small></p>
+
+    <h2 id="tag-i">Tag I - Itálico</h2>
+    <p>A tag <code>&lt;i&gt;</code> é utilizada para colocar um texto em itálico, como este: <i>Exemplo de texto em itálico.</i></p>
+
+    <h2 id="tag-u">Tag U - Sublinhado</h2>
+    <p>A tag <code>&lt;u&gt;</code> sublinha o texto. É usada para destacar informações específicas. <u>Exemplo de texto sublinhado.</u></p>
+
+    <h2 id="tag-strong">Tag Strong - Ênfase Forte</h2>
+    <p>A tag <code>&lt;strong&gt;</code> é usada para dar ênfase a um texto, exibindo-o em negrito e sugerindo maior importância. <strong>Texto em negrito</strong></p>
+
+    <h2 id="tag-listas">Tag's ol, ul e li - Listas</h2>
+    <p>As tags <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code> e <code>&lt;li&gt;</code> são usadas para criar listas. A tag <code>&lt;ul&gt;</code> cria uma lista não ordenada (com marcadores), enquanto <code>&lt;ol&gt;</code> cria uma lista ordenada (numerada). Cada item de lista é representado pela tag <code>&lt;li&gt;</code>.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+
+    <h2 id="tag-a">Tag A - Âncoras e Links</h2>
+    <p>A tag <code>&lt;a&gt;</code> é utilizada para criar links de ancoragem, tanto para outras páginas como para seções específicas dentro da própria página. Exemplo: <a href="#tag-hr">Ir para Tag HR</a></p>
+
+    <h2 id="tag-hr">Tag HR - Linha Horizontal</h2>
+    <p>A tag <code>&lt;hr&gt;</code> é usada para criar uma linha horizontal, normalmente para separar seções de conteúdo.</p>
+    <hr>
+
+    <h2 id="tag-sub-sup">Tag's Sub e Sup - Subscrito e Sobrescrito</h2>
+    <p>As tags <code>&lt;sub&gt;</code> e <code>&lt;sup&gt;</code> são usadas para textos subscritos e sobrescritos, respectivamente. Exemplo: CO<sub>2</sub> e E=mc<sup>2</sup>.</p>
+
+    <h2 id="tag-blockquote">Tag Blockquote - Citação em Bloco</h2>
+    <p>A tag <code>&lt;blockquote&gt;</code> é usada para marcar uma citação longa. Exemplo:</p>
+    <blockquote>
+        "HTML (HyperText Markup Language) é a linguagem de marcação padrão para a criação de páginas da Web."
+    </blockquote>
+
+    <h2 id="tag-font">Tag Font - Alterar Fonte</h2>
+    <p>A tag <code>&lt;font&gt;</code> é utilizada para alterar a cor, o tamanho e a família da fonte. Entretanto, esta tag está descontinuada e não deve ser usada em projetos modernos.</p>
+    <p><font color="red" size="4">Exemplo de texto com a tag font.</font></p>
+
+    <h2 id="tag-del">Tag Del - Texto Deletado</h2>
+    <p>A tag <code>&lt;del&gt;</code> representa um texto que foi removido ou alterado. Exemplo: <del>Este texto foi removido.</del></p>
+
+    <h2 id="tag-abbr">Tag Abbr - Abreviação</h2>
+    <p>A tag <code>&lt;abbr&gt;</code> é usada para indicar abreviações. Exemplo: <abbr title="Organização das Nações Unidas">ONU</abbr>.</p>
+
+</body>
+</html>
